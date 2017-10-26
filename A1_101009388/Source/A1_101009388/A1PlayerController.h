@@ -14,6 +14,4 @@ class A1_101009388_API AA1PlayerController : public APlayerController
 	GENERATED_BODY()
 
 	virtual void BeginPlay() override;
-	
-	
 };
