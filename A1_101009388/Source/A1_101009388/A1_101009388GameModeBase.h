@@ -12,8 +12,8 @@ UCLASS()
 class A1_101009388_API AA1_101009388GameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
-	
+
+	AA1_101009388GameModeBase(const FObjectInitializer& ObjectInitializer);
 	
 	
 };
