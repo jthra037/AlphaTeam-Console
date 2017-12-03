@@ -90,6 +90,8 @@ void AHeroCharacter::SwitchCam()
 		return;
 
 	GLog->Log("We got to the for loop");
+
+	
 	
 	for (TActorIterator<ACameraActor> It(GetWorld()); It; ++It)
 	{
@@ -98,7 +100,7 @@ void AHeroCharacter::SwitchCam()
 		if (sideScroller && thisCamera->GetName().Compare("SceneCamera") == 0)
 			controller->SetViewTargetWithBlend(thisCamera);
 		
-		if (!sideScroller && thisCamera->GetName().Compare("PlayerCamera") == 0)
+		if (!sideScroller && thisCamera->GetName().Compare("SceneCamera") != 0)
 			controller->SetViewTargetWithBlend(thisCamera);
 	}
 }
