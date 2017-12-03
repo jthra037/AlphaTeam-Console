@@ -13,21 +13,26 @@ class A1_101009388_API AHeroCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AHeroCharacter();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = SideScroller)
+		bool sideScroller = true;
 
 protected:
 	// Called when the game starts or when spawned
+
+
 	virtual void BeginPlay() override;
 	void MoveForward(float Value);
 	void MoveRight(float Value);
 	void Jump();
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	
-	
+private:
+	bool lastTick;
+	void SwitchCam();
 };

@@ -13,7 +13,7 @@ void AA1PlayerController::BeginPlay()
 	for (TActorIterator<ACameraActor> It(GetWorld()); It; ++It)
 	{
 		ACameraActor* MainCamera = *It;
-		if (MainCamera->GetName().Compare("SceneCameraActor") == 0)
+		if (MainCamera->GetName().Compare("SceneCamera") == 0)
 			this->SetViewTargetWithBlend(MainCamera);
 	}
 }
