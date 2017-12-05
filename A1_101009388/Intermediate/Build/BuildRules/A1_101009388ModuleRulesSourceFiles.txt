@@ -1,0 +1,3 @@
+D:\Users\Andrew\Documents\GitProjects\AlphaTeam-Console\A1_101009388\Source\A1_101009388\A1_101009388.Build.cs
+D:\Users\Andrew\Documents\GitProjects\AlphaTeam-Console\A1_101009388\Source\A1_101009388.Target.cs
+D:\Users\Andrew\Documents\GitProjects\AlphaTeam-Console\A1_101009388\Source\A1_101009388Editor.Target.cs
