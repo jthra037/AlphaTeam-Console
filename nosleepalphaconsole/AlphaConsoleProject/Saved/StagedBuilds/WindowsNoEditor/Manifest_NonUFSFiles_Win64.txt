@@ -1,0 +1,21 @@
+Engine/Binaries/Win64/UE4Game.exe	2017-12-05T01:49:09.605Z
+AlphaConsoleProject.exe	2017-12-06T03:31:41.233Z
+Engine/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll	2017-12-05T01:46:53.366Z
+Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.dll	2017-12-05T01:46:53.153Z
+Engine/Binaries/ThirdParty/Windows/DirectX/x64/WinPixEventRuntime.dll	2017-12-05T01:47:02.173Z
+Engine/Binaries/ThirdParty/PhysX/Win64/VS2015/PxFoundationPROFILE_x64.dll	2017-12-05T01:46:56.470Z
+Engine/Binaries/ThirdParty/PhysX/Win64/VS2015/PxPvdSDKPROFILE_x64.dll	2017-12-05T01:46:56.509Z
+Engine/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3PROFILE_x64.dll	2017-12-05T01:46:56.380Z
+Engine/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3CookingPROFILE_x64.dll	2017-12-05T01:46:56.353Z
+Engine/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3CommonPROFILE_x64.dll	2017-12-05T01:46:56.173Z
+Engine/Binaries/ThirdParty/PhysX/Win64/VS2015/APEX_ClothingPROFILE_x64.dll	2017-12-05T01:46:55.874Z
+Engine/Binaries/ThirdParty/PhysX/Win64/VS2015/APEX_DestructiblePROFILE_x64.dll	2017-12-05T01:46:55.923Z
+Engine/Binaries/ThirdParty/PhysX/Win64/VS2015/APEX_LegacyPROFILE_x64.dll	2017-12-05T01:46:56.002Z
+Engine/Binaries/ThirdParty/PhysX/Win64/VS2015/ApexFrameworkPROFILE_x64.dll	2017-12-05T01:46:56.039Z
+Engine/Binaries/ThirdParty/PhysX/Win64/VS2015/NvClothPROFILE_x64.dll	2017-12-05T01:46:56.080Z
+Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll	2017-12-05T01:46:53.414Z
+Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll	2017-12-05T01:47:02.038Z
+Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll	2017-12-05T01:47:02.049Z
+Engine/Binaries/ThirdParty/OpenVR/OpenVRv1_0_7/Win64/openvr_api.dll	2017-12-05T01:46:53.648Z
+AlphaConsoleProject/Content/Movies/splash landscape.mp4	2017-12-06T03:09:03.806Z
+AlphaConsoleProject/Content/Movies/splashlandscape-new.mp4	2017-12-06T03:31:21.704Z
