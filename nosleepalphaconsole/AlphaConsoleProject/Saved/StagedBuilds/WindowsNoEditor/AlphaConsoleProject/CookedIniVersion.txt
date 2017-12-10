@@ -55,7 +55,7 @@ Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Scri
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/Maps/Minimal_Default.Minimal_Default
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/MainMenuBluePrints/MainMenuGameMode.MainMenuGameMode_C
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
 Windows.Engine:URL:Protocol:0=unreal
 Windows.Engine:URL:Name:0=Player
@@ -1282,11 +1282,54 @@ Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:TargetedHardw
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedTargetedHardwareClass:0=Desktop
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:DefaultGraphicsPerformance:0=Maximum
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphicsPerformance:0=Maximum
+Mac.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+Mac.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+Mac.Engine:AssetRegistry:bSerializeDependencies:0=false
+Mac.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+Mac.Engine:AssetRegistry:bSerializePackageData:0=false
+Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
+Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/MainMenuBluePrints/MainMenuGameMode.MainMenuGameMode_C
+Android.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+Android.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+Android.Engine:AssetRegistry:bSerializeDependencies:0=false
+Android.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+Android.Engine:AssetRegistry:bSerializePackageData:0=false
+Android.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+Android.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
+Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/MainMenuBluePrints/MainMenuGameMode.MainMenuGameMode_C
+HTML5.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+HTML5.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+HTML5.Engine:AssetRegistry:bSerializeDependencies:0=false
+HTML5.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+HTML5.Engine:AssetRegistry:bSerializePackageData:0=false
+HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
+HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/MainMenuBluePrints/MainMenuGameMode.MainMenuGameMode_C
+IOS.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+IOS.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+IOS.Engine:AssetRegistry:bSerializeDependencies:0=false
+IOS.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+IOS.Engine:AssetRegistry:bSerializePackageData:0=false
+IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
+IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/MainMenuBluePrints/MainMenuGameMode.MainMenuGameMode_C
+Linux.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+Linux.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+Linux.Engine:AssetRegistry:bSerializeDependencies:0=false
+Linux.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+Linux.Engine:AssetRegistry:bSerializePackageData:0=false
+Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
+Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/MainMenuBluePrints/MainMenuGameMode.MainMenuGameMode_C
+Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
+Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/MainMenuBluePrints/MainMenuGameMode.MainMenuGameMode_C
+Windows.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=/Engine/MobileResources/HUD/DefaultVirtualJoysticks.DefaultVirtualJoysticks
 Windows.Input:/Script/Engine.InputSettings:bEnableMouseSmoothing:0=True
 Windows.Input:/Script/Engine.InputSettings:bEnableFOVScaling:0=True
 Windows.Input:/Script/Engine.InputSettings:FOVScale:0=0.011110
 Windows.Input:/Script/Engine.InputSettings:DoubleClickTime:0=0.200000
-Windows.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=/Engine/MobileResources/HUD/DefaultVirtualJoysticks.DefaultVirtualJoysticks
 Windows.Input:/Script/Engine.InputSettings:bAlwaysShowTouchInterface:0=False
 Windows.Input:/Script/Engine.InputSettings:bShowConsoleOnFourFingerTap:0=True
 Windows.Input:/Script/Engine.InputSettings:bAltEnterTogglesFullscreen:0=True
@@ -1493,51 +1536,9 @@ Windows.Input:/Script/EngineSettings.ConsoleSettings:HistoryColor:0=(R=180,G=180
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCommandColor:0=(B=185,G=109,R=144,A=255)
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCVarColor:0=(B=86,G=158,R=86,A=255)
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteFadedColor:0=(R=100,G=100,B=100,A=255)
-Mac.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-Mac.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-Mac.Engine:AssetRegistry:bSerializeDependencies:0=false
-Mac.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-Mac.Engine:AssetRegistry:bSerializePackageData:0=false
-Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
-Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
-Android.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-Android.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-Android.Engine:AssetRegistry:bSerializeDependencies:0=false
-Android.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-Android.Engine:AssetRegistry:bSerializePackageData:0=false
-Android.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Android.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
-Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
-HTML5.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-HTML5.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-HTML5.Engine:AssetRegistry:bSerializeDependencies:0=false
-HTML5.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-HTML5.Engine:AssetRegistry:bSerializePackageData:0=false
-HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
-HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
-IOS.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-IOS.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-IOS.Engine:AssetRegistry:bSerializeDependencies:0=false
-IOS.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-IOS.Engine:AssetRegistry:bSerializePackageData:0=false
-IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
-IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
-Linux.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-Linux.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-Linux.Engine:AssetRegistry:bSerializeDependencies:0=false
-Linux.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-Linux.Engine:AssetRegistry:bSerializePackageData:0=false
-Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
-Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
-Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
-Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
-Windows.Game:StartupActions:bAddPacks:0=False
-Windows.Game:StartupActions:InsertPack:0=(PackSource="StarterContent.upack,PackName="StarterContent")
+Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="C/Users/Andrew/Desktop/test")
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
@@ -1561,7 +1562,6 @@ Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bNativizeOnlySelectedBlue
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=True
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=False
@@ -1569,6 +1569,8 @@ Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPrese
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:0=en
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:0=en
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=false
+Windows.Game:StartupActions:bAddPacks:0=False
+Windows.Game:StartupActions:InsertPack:0=(PackSource="StarterContent.upack,PackName="StarterContent")
 Windows.Game:Internationalization:LocalizationPaths:0=%GAMEDIR%Content/Localization/Game
 Windows.Game:DefaultPlayer:Name:0=Player
 Windows.Game:/Script/Engine.GameNetworkManager:TotalNetBandwidth:0=32000
@@ -1650,7 +1652,11 @@ Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(Prim
 Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")))
 Windows.Game:/Script/MoviePlayer.MoviePlayerSettings:bWaitForMoviesToComplete:0=True
 Windows.Game:/Script/MoviePlayer.MoviePlayerSettings:bMoviesAreSkippable:0=True
-Windows.Game:/Script/MoviePlayer.MoviePlayerSettings:StartupMovies:0=splashlandscape-new
+Windows.Game:/Script/MoviePlayer.MoviePlayerSettings:StartupMovies:0=splash landscape
+Android.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+HTML5.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+IOS.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Linux.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
@@ -1783,7 +1789,7 @@ Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0=(\
 							]\
 						),\
 						(\
-							"SizeCoefficient" 0.62962961196899414,\
+							"SizeCoefficient" 0.6904260516166687,\
 							"Type" "Stack",\
 							"HideTabWell" true,\
 							"ForegroundTab" "SlatePreview",\
@@ -1795,7 +1801,7 @@ Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0=(\
 							]\
 						),\
 						(\
-							"SizeCoefficient" 0.22037036716938019,\
+							"SizeCoefficient" 0.15957383811473846,\
 							"Type" "Stack",\
 							"HideTabWell" false,\
 							"ForegroundTab" "WidgetDetails",\
@@ -1829,7 +1835,7 @@ Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0=(\
 							"SizeCoefficient" 0.85000002384185791,\
 							"Type" "Stack",\
 							"HideTabWell" false,\
-							"ForegroundTab" "CompilerResults",\
+							"ForegroundTab" "Sequencer",\
 							"Tabs" [\
 								(\
 									"TabId" "Sequencer",\
@@ -1915,7 +1921,7 @@ Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Graph_Layout_v1:0=(\
 									"SizeCoefficient" 0.80000001192092896,\
 									"Type" "Stack",\
 									"HideTabWell" false,\
-									"ForegroundTab" "Document  2",\
+									"ForegroundTab" "Document  23",\
 									"Tabs" [\
 										(\
 											"TabId" "Document",\

@@ -55,7 +55,7 @@ Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Scri
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/Maps/Minimal_Default.Minimal_Default
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Minimal_Default.Minimal_Default
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Blueprints/MainMenuBluePrints/MainMenuGameMode.MainMenuGameMode_C
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
 Windows.Engine:URL:Protocol:0=unreal
 Windows.Engine:URL:Name:0=Player
@@ -1282,6 +1282,146 @@ Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:TargetedHardw
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedTargetedHardwareClass:0=Desktop
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:DefaultGraphicsPerformance:0=Maximum
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphicsPerformance:0=Maximum
+Mac.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+Mac.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+Mac.Engine:AssetRegistry:bSerializeDependencies:0=false
+Mac.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+Mac.Engine:AssetRegistry:bSerializePackageData:0=false
+Android.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+Android.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+Android.Engine:AssetRegistry:bSerializeDependencies:0=false
+Android.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+Android.Engine:AssetRegistry:bSerializePackageData:0=false
+HTML5.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+HTML5.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+HTML5.Engine:AssetRegistry:bSerializeDependencies:0=false
+HTML5.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+HTML5.Engine:AssetRegistry:bSerializePackageData:0=false
+IOS.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+IOS.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+IOS.Engine:AssetRegistry:bSerializeDependencies:0=false
+IOS.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+IOS.Engine:AssetRegistry:bSerializePackageData:0=false
+Linux.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+Linux.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+Linux.Engine:AssetRegistry:bSerializeDependencies:0=false
+Linux.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+Linux.Engine:AssetRegistry:bSerializePackageData:0=false
+Windows.Game:StartupActions:bAddPacks:0=False
+Windows.Game:StartupActions:InsertPack:0=(PackSource="StarterContent.upack,PackName="StarterContent")
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="C/Users/Andrew/Desktop/test")
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BlueprintNativizationMethod:0=Disabled
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bWarnIfPackagedWithoutNativizationFlag:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateNoChunks:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bBuildHttpChunkInstallData:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:HttpChunkInstallDataDirectory:0=(Path="")
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:HttpChunkInstallDataVersion:0=
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeAppLocalPrerequisites:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bShareMaterialShaderCode:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSharedMaterialNativeLibraries:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ApplocalPrerequisitesDirectory:0=(Path="")
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCookAll:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCookMapsOnly:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCompressed:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bEncryptIniFiles:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bEncryptPakIndex:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bNativizeBlueprintAssets:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bNativizeOnlySelectedBlueprints:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=True
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:0=English
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:0=en
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:0=en
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=false
+Windows.Game:Internationalization:LocalizationPaths:0=%GAMEDIR%Content/Localization/Game
+Windows.Game:DefaultPlayer:Name:0=Player
+Windows.Game:/Script/Engine.GameNetworkManager:TotalNetBandwidth:0=32000
+Windows.Game:/Script/Engine.GameNetworkManager:MaxDynamicBandwidth:0=7000
+Windows.Game:/Script/Engine.GameNetworkManager:MinDynamicBandwidth:0=4000
+Windows.Game:/Script/Engine.GameNetworkManager:MoveRepSize:0=42.0f
+Windows.Game:/Script/Engine.GameNetworkManager:MAXPOSITIONERRORSQUARED:0=3.0f
+Windows.Game:/Script/Engine.GameNetworkManager:MAXNEARZEROVELOCITYSQUARED:0=9.0f
+Windows.Game:/Script/Engine.GameNetworkManager:CLIENTADJUSTUPDATECOST:0=180.0f
+Windows.Game:/Script/Engine.GameNetworkManager:MAXCLIENTUPDATEINTERVAL:0=0.25f
+Windows.Game:/Script/Engine.GameNetworkManager:MaxMoveDeltaTime:0=0.125f
+Windows.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveDeltaTime:0=0.0166
+Windows.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveDeltaTimeThrottled:0=0.0222
+Windows.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveThrottleAtNetSpeed:0=10000
+Windows.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveThrottleOverPlayerCount:0=10
+Windows.Game:/Script/Engine.GameNetworkManager:ClientAuthorativePosition:0=false
+Windows.Game:/Script/Engine.GameNetworkManager:ClientErrorUpdateRateLimit:0=0.0f
+Windows.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyDetection:0=false
+Windows.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyResolution:0=false
+Windows.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyMaxTimeMargin:0=0.25f
+Windows.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyMinTimeMargin:0=-0.25f
+Windows.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyResolutionRate:0=1.0f
+Windows.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyDriftAllowance:0=0.0f
+Windows.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyForceCorrectionsDuringResolution:0=false
+Windows.Game:/Script/Engine.GameNetworkManager:bUseDistanceBasedRelevancy:0=true
+Windows.Game:/Script/Party.Party:DefaultMaxPartySize:0=5
+Windows.Game:/Script/Lobby.LobbyBeaconState:WaitForPlayersTimeRemaining:0=20.0
+Windows.Game:/Script/Engine.GameSession:MaxPlayers:0=16
+Windows.Game:/Script/Engine.GameSession:MaxSpectators:0=2
+Windows.Game:/Script/Engine.GameSession:MaxSplitscreensPerConnection:0=4
+Windows.Game:/Script/Engine.GameSession:bRequiresPushToTalk:0=true
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CompanyName:0=
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CompanyDistinguishedName:0=
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CopyrightNotice:0=Fill out your copyright notice in the Description page of Project Settings.
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:Description:0=
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:LicensingTerms:0=
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:PrivacyPolicy:0=
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectName:0=UE4Game
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectVersion:0=1.0.0.0
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:Homepage:0=
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:SupportContact:0=
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectID:0=6924862847AA65DA49DC599616402E24
+Windows.Game:/Script/Engine.HUD:DebugDisplay:0=AI
+Windows.Game:/Script/Engine.PlayerController:InputYawScale:0=2.5
+Windows.Game:/Script/Engine.PlayerController:InputPitchScale:0=-1.75
+Windows.Game:/Script/Engine.PlayerController:InputRollScale:0=1.0
+Windows.Game:/Script/Engine.PlayerController:ForceFeedbackScale:0=1.0
+Windows.Game:/Script/Engine.DebugCameraController:bShowSelectedInfo:0=true
+Windows.Game:/Script/Engine.WorldSettings:ChanceOfPhysicsChunkOverride:0=1.0
+Windows.Game:/Script/Engine.WorldSettings:bEnableChanceOfPhysicsChunkOverride:0=false
+Windows.Game:/Script/Engine.WorldSettings:DefaultAmbientZoneSettings:0=(bIsWorldSettings=true)
+Windows.Game:/Script/Engine.WorldSettings:EnabledPlugins:0=ExampleDeviceProfileSelector
+Windows.Game:/Script/Engine.WorldSettings:MinUndilatedFrameTime:0=0.0005		; 2000 fps
+Windows.Game:/Script/Engine.WorldSettings:MaxUndilatedFrameTime:0=0.4			; 2.5 fps
+Windows.Game:/Script/Engine.WorldSettings:MinGlobalTimeDilation:0=0.0001
+Windows.Game:/Script/Engine.WorldSettings:MaxGlobalTimeDilation:0=20.0
+Windows.Game:/Script/AIModule.AIPerceptionComponent:HearingRange:0=768
+Windows.Game:/Script/AIModule.AIPerceptionComponent:SightRadius:0=3000
+Windows.Game:/Script/AIModule.AIPerceptionComponent:LoseSightRadius:0=3500
+Windows.Game:/Script/AIModule.AIPerceptionComponent:LoSHearingRange:0=1500
+Windows.Game:/Script/AIModule.AIPerceptionComponent:PeripheralVisionAngle:0=90
+Windows.Game:/Script/AIModule.AISense_Hearing:SpeedOfSoundSq:0=0
+Windows.Game:/Script/AIModule.AISenseConfig_Hearing:Implementation:0=Class'/Script/AIModule.AISense_Hearing'
+Windows.Game:/Script/AIModule.AISenseConfig_Hearing:HearingRange:0=768
+Windows.Game:/Script/AIModule.AISenseConfig_Hearing:LoSHearingRange:0=1500
+Windows.Game:/Script/AIModule.AISenseConfig_Hearing:DetectionByAffiliation:0=(bDetectEnemies=true)
+Windows.Game:/Script/AIModule.AISenseConfig_Sight:Implementation:0=Class'/Script/AIModule.AISense_Sight'
+Windows.Game:/Script/AIModule.AISenseConfig_Sight:SightRadius:0=3000
+Windows.Game:/Script/AIModule.AISenseConfig_Sight:LoseSightRadius:0=3500
+Windows.Game:/Script/AIModule.AISenseConfig_Sight:PeripheralVisionAngleDegrees:0=90
+Windows.Game:/Script/AIModule.AISenseConfig_Sight:DetectionByAffiliation:0=(bDetectEnemies=true)
+Windows.Game:/Script/AIModule.AISenseConfig_Sight:AutoSuccessRangeFromLastSeenLocation:0=-1.f
+Windows.Game:/Script/AIModule.AISenseConfig_Damage:Implementation:0=Class'/Script/AIModule.AISense_Damage'
+Windows.Game:/Script/AIModule.EnvQueryManager:MaxAllowedTestingTime:0=0.01
+Windows.Game:/Script/AIModule.EnvQueryManager:bTestQueriesUsingBreadth:0=true
+Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningThreshold:0=0
+Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningInterval:0=30.0
+Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")))
+Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")))
+Windows.Game:/Script/MoviePlayer.MoviePlayerSettings:bWaitForMoviesToComplete:0=True
+Windows.Game:/Script/MoviePlayer.MoviePlayerSettings:bMoviesAreSkippable:0=True
+Windows.Game:/Script/MoviePlayer.MoviePlayerSettings:StartupMovies:0=splashlandscape-new
 Windows.Input:/Script/Engine.InputSettings:bEnableMouseSmoothing:0=True
 Windows.Input:/Script/Engine.InputSettings:bEnableFOVScaling:0=True
 Windows.Input:/Script/Engine.InputSettings:FOVScale:0=0.011110
@@ -1493,146 +1633,6 @@ Windows.Input:/Script/EngineSettings.ConsoleSettings:HistoryColor:0=(R=180,G=180
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCommandColor:0=(B=185,G=109,R=144,A=255)
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCVarColor:0=(B=86,G=158,R=86,A=255)
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteFadedColor:0=(R=100,G=100,B=100,A=255)
-Mac.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-Mac.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-Mac.Engine:AssetRegistry:bSerializeDependencies:0=false
-Mac.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-Mac.Engine:AssetRegistry:bSerializePackageData:0=false
-Android.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-Android.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-Android.Engine:AssetRegistry:bSerializeDependencies:0=false
-Android.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-Android.Engine:AssetRegistry:bSerializePackageData:0=false
-HTML5.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-HTML5.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-HTML5.Engine:AssetRegistry:bSerializeDependencies:0=false
-HTML5.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-HTML5.Engine:AssetRegistry:bSerializePackageData:0=false
-IOS.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-IOS.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-IOS.Engine:AssetRegistry:bSerializeDependencies:0=false
-IOS.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-IOS.Engine:AssetRegistry:bSerializePackageData:0=false
-Linux.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-Linux.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-Linux.Engine:AssetRegistry:bSerializeDependencies:0=false
-Linux.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-Linux.Engine:AssetRegistry:bSerializePackageData:0=false
-Windows.Game:StartupActions:bAddPacks:0=False
-Windows.Game:StartupActions:InsertPack:0=(PackSource="StarterContent.upack,PackName="StarterContent")
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="C/Users/Andrew/Desktop/test")
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BlueprintNativizationMethod:0=Disabled
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bWarnIfPackagedWithoutNativizationFlag:0=True
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateNoChunks:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bBuildHttpChunkInstallData:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:HttpChunkInstallDataDirectory:0=(Path="")
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:HttpChunkInstallDataVersion:0=
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeAppLocalPrerequisites:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bShareMaterialShaderCode:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSharedMaterialNativeLibraries:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ApplocalPrerequisitesDirectory:0=(Path="")
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCookAll:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCookMapsOnly:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bCompressed:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bEncryptIniFiles:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bEncryptPakIndex:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bNativizeBlueprintAssets:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bNativizeOnlySelectedBlueprints:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=True
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:0=English
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:0=en
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:0=en
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=false
-Windows.Game:Internationalization:LocalizationPaths:0=%GAMEDIR%Content/Localization/Game
-Windows.Game:DefaultPlayer:Name:0=Player
-Windows.Game:/Script/Engine.GameNetworkManager:TotalNetBandwidth:0=32000
-Windows.Game:/Script/Engine.GameNetworkManager:MaxDynamicBandwidth:0=7000
-Windows.Game:/Script/Engine.GameNetworkManager:MinDynamicBandwidth:0=4000
-Windows.Game:/Script/Engine.GameNetworkManager:MoveRepSize:0=42.0f
-Windows.Game:/Script/Engine.GameNetworkManager:MAXPOSITIONERRORSQUARED:0=3.0f
-Windows.Game:/Script/Engine.GameNetworkManager:MAXNEARZEROVELOCITYSQUARED:0=9.0f
-Windows.Game:/Script/Engine.GameNetworkManager:CLIENTADJUSTUPDATECOST:0=180.0f
-Windows.Game:/Script/Engine.GameNetworkManager:MAXCLIENTUPDATEINTERVAL:0=0.25f
-Windows.Game:/Script/Engine.GameNetworkManager:MaxMoveDeltaTime:0=0.125f
-Windows.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveDeltaTime:0=0.0166
-Windows.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveDeltaTimeThrottled:0=0.0222
-Windows.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveThrottleAtNetSpeed:0=10000
-Windows.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveThrottleOverPlayerCount:0=10
-Windows.Game:/Script/Engine.GameNetworkManager:ClientAuthorativePosition:0=false
-Windows.Game:/Script/Engine.GameNetworkManager:ClientErrorUpdateRateLimit:0=0.0f
-Windows.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyDetection:0=false
-Windows.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyResolution:0=false
-Windows.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyMaxTimeMargin:0=0.25f
-Windows.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyMinTimeMargin:0=-0.25f
-Windows.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyResolutionRate:0=1.0f
-Windows.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyDriftAllowance:0=0.0f
-Windows.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyForceCorrectionsDuringResolution:0=false
-Windows.Game:/Script/Engine.GameNetworkManager:bUseDistanceBasedRelevancy:0=true
-Windows.Game:/Script/Party.Party:DefaultMaxPartySize:0=5
-Windows.Game:/Script/Lobby.LobbyBeaconState:WaitForPlayersTimeRemaining:0=20.0
-Windows.Game:/Script/Engine.GameSession:MaxPlayers:0=16
-Windows.Game:/Script/Engine.GameSession:MaxSpectators:0=2
-Windows.Game:/Script/Engine.GameSession:MaxSplitscreensPerConnection:0=4
-Windows.Game:/Script/Engine.GameSession:bRequiresPushToTalk:0=true
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CompanyName:0=
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CompanyDistinguishedName:0=
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CopyrightNotice:0=Fill out your copyright notice in the Description page of Project Settings.
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:Description:0=
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:LicensingTerms:0=
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:PrivacyPolicy:0=
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectName:0=UE4Game
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectVersion:0=1.0.0.0
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:Homepage:0=
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:SupportContact:0=
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectID:0=6924862847AA65DA49DC599616402E24
-Windows.Game:/Script/Engine.HUD:DebugDisplay:0=AI
-Windows.Game:/Script/Engine.PlayerController:InputYawScale:0=2.5
-Windows.Game:/Script/Engine.PlayerController:InputPitchScale:0=-1.75
-Windows.Game:/Script/Engine.PlayerController:InputRollScale:0=1.0
-Windows.Game:/Script/Engine.PlayerController:ForceFeedbackScale:0=1.0
-Windows.Game:/Script/Engine.DebugCameraController:bShowSelectedInfo:0=true
-Windows.Game:/Script/Engine.WorldSettings:ChanceOfPhysicsChunkOverride:0=1.0
-Windows.Game:/Script/Engine.WorldSettings:bEnableChanceOfPhysicsChunkOverride:0=false
-Windows.Game:/Script/Engine.WorldSettings:DefaultAmbientZoneSettings:0=(bIsWorldSettings=true)
-Windows.Game:/Script/Engine.WorldSettings:EnabledPlugins:0=ExampleDeviceProfileSelector
-Windows.Game:/Script/Engine.WorldSettings:MinUndilatedFrameTime:0=0.0005		; 2000 fps
-Windows.Game:/Script/Engine.WorldSettings:MaxUndilatedFrameTime:0=0.4			; 2.5 fps
-Windows.Game:/Script/Engine.WorldSettings:MinGlobalTimeDilation:0=0.0001
-Windows.Game:/Script/Engine.WorldSettings:MaxGlobalTimeDilation:0=20.0
-Windows.Game:/Script/AIModule.AIPerceptionComponent:HearingRange:0=768
-Windows.Game:/Script/AIModule.AIPerceptionComponent:SightRadius:0=3000
-Windows.Game:/Script/AIModule.AIPerceptionComponent:LoseSightRadius:0=3500
-Windows.Game:/Script/AIModule.AIPerceptionComponent:LoSHearingRange:0=1500
-Windows.Game:/Script/AIModule.AIPerceptionComponent:PeripheralVisionAngle:0=90
-Windows.Game:/Script/AIModule.AISense_Hearing:SpeedOfSoundSq:0=0
-Windows.Game:/Script/AIModule.AISenseConfig_Hearing:Implementation:0=Class'/Script/AIModule.AISense_Hearing'
-Windows.Game:/Script/AIModule.AISenseConfig_Hearing:HearingRange:0=768
-Windows.Game:/Script/AIModule.AISenseConfig_Hearing:LoSHearingRange:0=1500
-Windows.Game:/Script/AIModule.AISenseConfig_Hearing:DetectionByAffiliation:0=(bDetectEnemies=true)
-Windows.Game:/Script/AIModule.AISenseConfig_Sight:Implementation:0=Class'/Script/AIModule.AISense_Sight'
-Windows.Game:/Script/AIModule.AISenseConfig_Sight:SightRadius:0=3000
-Windows.Game:/Script/AIModule.AISenseConfig_Sight:LoseSightRadius:0=3500
-Windows.Game:/Script/AIModule.AISenseConfig_Sight:PeripheralVisionAngleDegrees:0=90
-Windows.Game:/Script/AIModule.AISenseConfig_Sight:DetectionByAffiliation:0=(bDetectEnemies=true)
-Windows.Game:/Script/AIModule.AISenseConfig_Sight:AutoSuccessRangeFromLastSeenLocation:0=-1.f
-Windows.Game:/Script/AIModule.AISenseConfig_Damage:Implementation:0=Class'/Script/AIModule.AISense_Damage'
-Windows.Game:/Script/AIModule.EnvQueryManager:MaxAllowedTestingTime:0=0.01
-Windows.Game:/Script/AIModule.EnvQueryManager:bTestQueriesUsingBreadth:0=true
-Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningThreshold:0=0
-Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningInterval:0=30.0
-Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")))
-Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")))
-Windows.Game:/Script/MoviePlayer.MoviePlayerSettings:bWaitForMoviesToComplete:0=True
-Windows.Game:/Script/MoviePlayer.MoviePlayerSettings:bMoviesAreSkippable:0=True
-Windows.Game:/Script/MoviePlayer.MoviePlayerSettings:StartupMovies:0=splashlandscape-new
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
@@ -1765,7 +1765,7 @@ Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0=(\
 							]\
 						),\
 						(\
-							"SizeCoefficient" 0.62962961196899414,\
+							"SizeCoefficient" 0.6904260516166687,\
 							"Type" "Stack",\
 							"HideTabWell" true,\
 							"ForegroundTab" "SlatePreview",\
@@ -1777,7 +1777,7 @@ Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0=(\
 							]\
 						),\
 						(\
-							"SizeCoefficient" 0.22037036716938019,\
+							"SizeCoefficient" 0.15957383811473846,\
 							"Type" "Stack",\
 							"HideTabWell" false,\
 							"ForegroundTab" "WidgetDetails",\
@@ -1811,7 +1811,7 @@ Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0=(\
 							"SizeCoefficient" 0.85000002384185791,\
 							"Type" "Stack",\
 							"HideTabWell" false,\
-							"ForegroundTab" "CompilerResults",\
+							"ForegroundTab" "Sequencer",\
 							"Tabs" [\
 								(\
 									"TabId" "Sequencer",\
@@ -1897,7 +1897,7 @@ Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Graph_Layout_v1:0=(\
 									"SizeCoefficient" 0.80000001192092896,\
 									"Type" "Stack",\
 									"HideTabWell" false,\
-									"ForegroundTab" "Document  2",\
+									"ForegroundTab" "Document  23",\
 									"Tabs" [\
 										(\
 											"TabId" "Document",\
